@@ -10,9 +10,10 @@
     "deploy": "npm run build && firebase deploy --only hosting"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3",
+    "nuxt": "2.15.3",
     "sass": "~1.32.6"
   },
   "devDependencies": {
