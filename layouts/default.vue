@@ -75,6 +75,11 @@ export default {
           icon: 'mdi-domain',
           title: 'information',
           to: '/information'
+        },
+        {
+          icon: 'mdi-file-document-outline',
+          title: 'commerce',
+          to: '/commerce'
         }
       ],
       miniVariant: false,

@@ -21,7 +21,7 @@
           </v-col>
         </v-row>
       </v-card>
-      <v-card class="mt-8">
+      <v-card class="mt-8 pb-2">
         <v-card-title class="headline justify-center">
           Achievements
         </v-card-title>
@@ -55,6 +55,30 @@
               <div class="achievements-wrap">
                 <v-btn href="https://page.line.me/?accountId=rublab&openerPlatform=native&openerKey=keep" target="_blank" outlined class="to-line-bot-btn">
                   <span>LINEbot</span>
+                  <v-icon style="right:0">mdi-pan-right</v-icon>
+                </v-btn>
+              </div>
+            </div>
+          </div>
+        </v-card>
+      </v-card>
+      <v-card class="mt-8 pb-2">
+        <v-card-title class="headline justify-center">
+          Services
+        </v-card-title>
+        <v-card class="mx-2 mt-2">
+          <div class="d-flex">
+            <div style="width:50%;" class="pa-4">
+              <div>
+                <p class="achievements-title">勉強会</p>
+                <p>月に一度、もくもく会を開催しています<br>開催日等は右のリンクのオープンチャットにて告知しています</p>
+                <p>参加費：1,000 円（税込）</p>
+              </div>
+            </div>
+            <div style="width:50%;" class="achievements-container">
+              <div class="achievements-wrap">
+                <v-btn href="https://line.me/ti/g2/Y02gbPoBTyc1tfegp5qr-UgQeGo-9nWlWMjTcQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" outlined class="to-line-bot-btn">
+                  <span>LINK</span>
                   <v-icon style="right:0">mdi-pan-right</v-icon>
                 </v-btn>
               </div>
