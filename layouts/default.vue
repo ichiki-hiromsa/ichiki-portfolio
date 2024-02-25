@@ -49,6 +49,9 @@
       app
     >
       <span>&copy; {{ new Date().getFullYear() }}</span>
+      <NuxtLink to="/commerce" class="ml-4 c-p" tag="div">
+        特別商取引法に基づく表示
+      </NuxtLink>
     </v-footer>
   </v-app>
 </template>
@@ -76,11 +79,6 @@ export default {
           title: 'information',
           to: '/information'
         },
-        {
-          icon: 'mdi-file-document-outline',
-          title: 'commerce',
-          to: '/commerce'
-        }
       ],
       miniVariant: false,
       right: true,
@@ -90,3 +88,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-p {
+  cursor: pointer;
+}
+</style>

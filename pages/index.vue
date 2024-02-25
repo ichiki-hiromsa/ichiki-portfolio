@@ -6,10 +6,11 @@
           Self-introduction
         </v-card-title>
         <v-row>
-          <v-col cols="5" class="pa-0" align="center">
-            <img src="/illust.png" alt="似顔絵" width="250" height="250">
+          <v-col cols="12" md="5" class="pa-0 imageContent">
+            <!-- <img src="/illust.png" alt="似顔絵" width="250" height="250"> -->
+            <img class="image" src="/illust.png" alt="似顔絵">
           </v-col>
-          <v-col cols="7" class="pa-0">
+          <v-col cols="12" md="7" class="pa-0">
             <v-card-text>
               <p>1992年生まれの大阪出身、大阪在住のエンジニア。</p>
               <p>大学では素粒子宇宙物理学を専攻し、就職を機にIT業界へ。</p>
@@ -61,6 +62,23 @@
             </div>
           </div>
         </v-card>
+        <v-card class="mx-2 mt-2">
+          <div class="d-flex">
+            <div style="width:50%;" class="pa-4">
+              <div>
+                <p class="achievements-title">保育ギフトLINEbot</p>
+              </div>
+            </div>
+            <div style="width:50%;" class="achievements-container">
+              <div class="achievements-wrap">
+                <v-btn href="https://lin.ee/0RHbs3x" target="_blank" outlined class="to-line-bot-btn">
+                  <span>LINEbot</span>
+                  <v-icon style="right:0">mdi-pan-right</v-icon>
+                </v-btn>
+              </div>
+            </div>
+          </div>
+        </v-card>
       </v-card>
       <v-card class="mt-8 pb-2">
         <v-card-title class="headline justify-center">
@@ -72,6 +90,8 @@
               <div>
                 <p class="achievements-title">勉強会</p>
                 <p>月に一度、もくもく会を開催しています<br>開催日等は右のリンクのオープンチャットにて告知しています</p>
+                <p>時期によりますが、集まったメンバーで共同開発をすることもあります。</p>
+                <p>共同開発の成果物の<a href="https://reserve-30096.web.app/">予約システム</a></p>
                 <p>参加費：1,000 円（税込）</p>
               </div>
             </div>
@@ -121,4 +141,13 @@ export default {
   align-items: center;
 }
 
+.image{
+  width: 70%;
+}
+
+.imageContent{
+  align-items: center;
+  justify-content:
+  center;display: flex;
+}
 </style>
